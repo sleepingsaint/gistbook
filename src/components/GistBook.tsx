@@ -30,7 +30,7 @@ const GistBook: React.FC = () => {
                     overflow: "hidden",
                     overflowY: "scroll",
                     width: "17rem",
-                    height: "100%",
+                    height: "100vh",
                 }}
                 className="scrollbar-hide"
                 dataLength={gists.length}
